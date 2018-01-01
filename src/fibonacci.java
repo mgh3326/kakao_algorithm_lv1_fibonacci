@@ -1,6 +1,6 @@
 
 class Fibonacci {
-    long[] memo = new long[100];//static 해줘야되나?
+    long[] memo = new long[100];//static 해줘야되나?//갯수가 100개면 충분하지 않은것 같다.
     public long fibonacci(int n) {
         //long answer = 0;
         if (n <= 1) {
